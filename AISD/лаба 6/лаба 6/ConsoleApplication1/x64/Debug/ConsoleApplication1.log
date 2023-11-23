@@ -1,0 +1,6 @@
+﻿  ConsoleApplication1.cpp
+D:\2 семестр\алгоритмы и структуры данных\лаба 6\лаба 6\ConsoleApplication1\ConsoleApplication1.cpp(10,1): warning C4005: INT_MAX: изменение макроопределения
+D:\Professional\VC\Tools\MSVC\14.33.31629\include\limits.h(36): message : см. предыдущее определение "INT_MAX"
+D:\2 семестр\алгоритмы и структуры данных\лаба 6\лаба 6\ConsoleApplication1\ConsoleApplication1.cpp(69,17): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+D:\2 семестр\алгоритмы и структуры данных\лаба 6\лаба 6\ConsoleApplication1\ConsoleApplication1.cpp(138,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+LINK : fatal error LNK1168: не удается открыть D:\2 семестр\алгоритмы и структуры данных\лаба 6\лаба 6\x64\Debug\ConsoleApplication1.exe для записи
