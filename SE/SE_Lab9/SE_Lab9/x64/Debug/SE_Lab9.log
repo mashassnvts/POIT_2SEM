@@ -1,0 +1,44 @@
+﻿Сборка начата 16.05.2023 22:59:08.
+Уровень детализации журнала: Normal.     1>Проект "D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\SE_Lab9.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\SE_Lab9.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt SE_Lab9.cpp Varparm.cpp
+         SE_Lab9.cpp
+     1>D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\SE_Lab9.cpp(6,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+     1>D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\SE_Lab9.cpp(33,40): warning C4305: аргумент: усечение из "double" в "float"
+     1>D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\SE_Lab9.cpp(34,47): warning C4305: аргумент: усечение из "double" в "float"
+     1>D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\SE_Lab9.cpp(35,72): warning C4305: аргумент: усечение из "double" в "float"
+         Varparm.cpp
+     1>D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\Varparm.cpp(5,6): error C2084: функция "int Varparm::ivarparm(int,...)" уже имеет текст реализации
+       D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\Varparm.h(5): message : см. предыдущее определение "ivarparm"
+     1>D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\Varparm.cpp(15,6): error C2084: функция "int Varparm::svarparm(short,...)" уже имеет текст реализации
+       D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\Varparm.h(15): message : см. предыдущее определение "svarparm"
+     1>D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\Varparm.cpp(25,9): error C2084: функция "double Varparm::fvarparm(float,...)" уже имеет текст реализации
+       D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\Varparm.h(25): message : см. предыдущее определение "fvarparm"
+     1>D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\Varparm.cpp(36,9): error C2084: функция "double Varparm::dvarparm(double,...)" уже имеет текст реализации
+       D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\Varparm.h(36): message : см. предыдущее определение "dvarparm"
+         Создание кода...
+     1>Сборка проекта "D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\SE_Lab9.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\SE_Lab9.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\SE_Lab9.cpp(6,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+         D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\SE_Lab9.cpp(33,40): warning C4305: аргумент: усечение из "double" в "float"
+         D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\SE_Lab9.cpp(34,47): warning C4305: аргумент: усечение из "double" в "float"
+         D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\SE_Lab9.cpp(35,72): warning C4305: аргумент: усечение из "double" в "float"
+
+
+       "D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\SE_Lab9.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\Varparm.cpp(5,6): error C2084: функция "int Varparm::ivarparm(int,...)" уже имеет текст реализации
+         D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\Varparm.cpp(15,6): error C2084: функция "int Varparm::svarparm(short,...)" уже имеет текст реализации
+         D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\Varparm.cpp(25,9): error C2084: функция "double Varparm::fvarparm(float,...)" уже имеет текст реализации
+         D:\2 семестр\конструирование программного обеспечения\SE_Lab9\SE_Lab9\Varparm.cpp(36,9): error C2084: функция "double Varparm::dvarparm(double,...)" уже имеет текст реализации
+
+    Предупреждений: 4
+    Ошибок: 4
+
+Прошло времени 00:00:00.51
