@@ -1,0 +1,26 @@
+﻿Сборка начата 21.04.2023 16:31:03.
+Уровень детализации журнала: Normal.     1>Проект "D:\2 семестр\конструирование программного обеспечения\SE_lab06L\SE_lab06L\SE_lab06L.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\SE_lab06L.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         D:\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"D:\2 семестр\конструирование программного обеспечения\SE_lab06L\Debug\SE_lab06L.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Dictionary.cpp
+         Dictionary.cpp
+     1>D:\2 семестр\конструирование программного обеспечения\SE_lab06L\SE_lab06L\Dictionary.cpp(62): warning C4715: Dictionary::GetEntry: значение возвращается не при всех путях выполнения
+       Lib:
+         D:\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\Lib.exe /OUT:"D:\2 семестр\конструирование программного обеспечения\SE_lab06L\Debug\SE_lab06L.lib" /NOLOGO /MACHINE:X86 Debug\Dictionary.obj
+         SE_lab06L.vcxproj -> D:\2 семестр\конструирование программного обеспечения\SE_lab06L\Debug\SE_lab06L.lib
+       FinalizeBuildStatus:
+         Файл "Debug\SE_lab06L.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SE_lab06L.tlog\SE_lab06L.lastbuildstate".
+     1>Сборка проекта "D:\2 семестр\конструирование программного обеспечения\SE_lab06L\SE_lab06L\SE_lab06L.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\2 семестр\конструирование программного обеспечения\SE_lab06L\SE_lab06L\SE_lab06L.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\2 семестр\конструирование программного обеспечения\SE_lab06L\SE_lab06L\Dictionary.cpp(62): warning C4715: Dictionary::GetEntry: значение возвращается не при всех путях выполнения
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:01.27
